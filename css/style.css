@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.box{
+    display: flex;
+    width: 1100px;
+    height: 400px;
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    border-radius: 8px;
+}
+
+.box-info{
+    padding: 60px;
+    width: 600px;
+}
+
+.box-description h1{
+    max-width: 350px;
+    font-family: 'Inter', sans-serif;
+}
+
+.box-description span{
+    color: #b75ae9;
+}
+
+.box-description p{
+    padding-top: 20px;
+    max-width: 350px;
+    line-height: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.box-number{
+    display: flex;
+    gap: 60px;
+    padding-top: 60px;
+    font-family: 'Inter', sans-serif;
+}
+
+.box-number p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.box-image{
+    background-color: #820cc1;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.box-image img{
+    width: 500px;
+    height: 400px;
+    opacity: 0.6;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
